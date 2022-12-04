@@ -26,6 +26,10 @@ const Index = () => {
 
   return (
     <View className="wrapper">
+      <View className="flex w-screen">
+        <Text className="w-40">asdkflsad</Text>
+        <View className="flex-1">name</View>
+      </View>
       <AtButton type="primary">按钮文案11</AtButton>
       <Image className="logo" src={logo} />
       <Text className="title">为Taro而设计的Hooks Library</Text>
